@@ -1,13 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>Bem-vindo ao Projeto</h1>
-    <!-- Conteúdo do projeto -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elon Musk — O Visionário que Mudou o Mundo</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ======================== HEADER / NAV ======================== -->
+    <header id="inicio">
+      <nav class="navbar">
+        <div class="nav-brand">
+          <i class="fa-solid fa-rocket"></i>
+          <span>ElonMusk</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Biografia</a></li>
+          <li><a href="#pilares">Empresas</a></li>
+          <li><a href="#importancia">Impacto</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-content">
+          <p class="hero-eyebrow">
+            <i class="fa-solid fa-star"></i> Empreendedor · Visionário ·
+            Inovador
+          </p>
+          <h1>
+            O Visionário que<br /><span class="highlight">Mudou o Mundo</span>
+          </h1>
+          <p class="hero-subtitle">
+            De Pretória, na África do Sul, ao topo da lista dos homens mais
+            ricos e influentes do planeta — conheça a trajetória de
+            <strong>Elon Musk</strong> e o legado que ele está construindo para
+            a humanidade.
+          </p>
+          <div class="hero-actions">
+            <a href="#sobre" class="btn btn-primary">Ver Biografia</a>
+            <a href="#pilares" class="btn btn-outline">Suas Empresas</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img
+            src="imagens/elon-hero.jpg"
+            alt="Elon Musk no palco"
+            class="hero-photo"
+          />
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
