@@ -1,11 +1,10 @@
-Integrantes do Projeto
-======================
+Integrantes do Projeto — Checkpoint 2 (Front-End)
+================================================
+Nome: Pedro Passos Corsini
+RM: 573493
 
-Nome: 
-Matrícula: 
+Nome: Daniel Gomes Torres
+RM: 573436
 
-Nome: 
-Matrícula: 
-
-Nome: 
-Matrícula: 
+Nome: Henrique Lira da Silva Costa  
+RM: 571009
